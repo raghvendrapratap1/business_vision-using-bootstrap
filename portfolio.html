@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Elevate - Innovative Business Solutions</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <span class="brand-text">Elevate</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="overlay"></div>
+    <div class="container text-center text-white">
+      <h1>Our Portfolio</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio Filter -->
+  <section class="portfolio-filter-section py-5">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+          <span class="section-subtitle">Our Work</span>
+          <h2 class="section-title">Showcasing Our Achievements</h2>
+          <p class="section-description">Explore our diverse portfolio of projects across various industries and service areas.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="strategy">Strategy</button>
+            <button class="filter-btn" data-filter="digital">Digital Transformation</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+            <button class="filter-btn" data-filter="finance">Financial Advisory</button>
+          </div>
+        </div>
+      </div>
+      <div class="row portfolio-grid">
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item strategy">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="TechStart Growth Strategy" class="img-fluid">
+              <div class="portfolio-overlay">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1" class="portfolio-link"><i class="bi bi-plus-lg"></i></a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>TechStart Growth Strategy</h4>
+              <p>Business Strategy, Market Analysis</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item digital">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="GlobalTech Digital Transformation" class="img-fluid">
+              <div class="portfolio-overlay">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal2" class="portfolio-link"><i class="bi bi-plus-lg"></i></a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>GlobalTech Digital Transformation</h4>
+              <p>Digital Strategy, Implementation</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item strategy">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <img src="https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="InnovateX Market Expansion" class="img-fluid">
+              <div class="portfolio-overlay">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal3" class="portfolio-link"><i class="bi bi-plus-lg"></i></a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>InnovateX Market Expansion</h4>
+              <p>Market Research, Growth Strategy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item marketing">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="RetailPlus Marketing Strategy" class="img-fluid">
+              <div class="portfolio-overlay">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal4" class="portfolio-link"><i class="bi bi-plus-lg"></i></a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>RetailPlus Marketing Strategy</h4>
+              <p>Digital Marketing, Brand Strategy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item finance">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <img src="https://images.pexels.com/photos/5673488/pexels-photo-5673488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="FinCorp Financial Restructuring" class="img-fluid">
+              <div class="portfolio-overlay">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal5" class="portfolio-link"><i class="bi bi-plus-lg"></i></a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>FinCorp Financial Restructuring</h4>
+              <p>Financial Advisory, Risk Management</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item digital">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="HealthTech App Development" class="img-fluid">
+              <div class="portfolio-overlay">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal6" class="portfolio-link"><i class="bi bi-plus-lg"></i></a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>HealthTech App Development</h4>
+              <p>Digital Health, UX Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Case Studies -->
+  <section class="case-studies-section py-5 bg-light">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+          <span class="section-subtitle">Case Studies</span>
+          <h2 class="section-title">Success Stories</h2>
+          <p class="section-description">Explore our in-depth case studies to see how we've helped businesses overcome challenges and achieve their goals.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="case-study-card">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="TechStart Case Study" class="img-fluid case-study-img">
+              </div>
+              <div class="col-md-7">
+                <div class="case-study-content">
+                  <h4>Accelerating Growth for TechStart</h4>
+                  <p class="case-study-category">Business Strategy</p>
+                  <p class="case-study-description">How we helped a technology startup develop a scalable business model and secure Series B funding.</p>
+                  <div class="case-study-results">
+                    <div class="result-item">
+                      <span class="result-number">250%</span>
+                      <span class="result-label">Revenue Growth</span>
+                    </div>
+                    <div class="result-item">
+                      <span class="result-number">$15M</span>
+                      <span class="result-label">Funding Secured</span>
+                    </div>
+                  </div>
+                  <a href="#" class="btn-link">Read Case Study <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="case-study-card">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="GlobalTech Case Study" class="img-fluid case-study-img">
+              </div>
+              <div class="col-md-7">
+                <div class="case-study-content">
+                  <h4>Digital Transformation at GlobalTech</h4>
+                  <p class="case-study-category">Digital Transformation</p>
+                  <p class="case-study-description">Transforming a traditional enterprise into a digital-first organization with modern processes and tools.</p>
+                  <div class="case-study-results">
+                    <div class="result-item">
+                      <span class="result-number">40%</span>
+                      <span class="result-label">Efficiency Gain</span>
+                    </div>
+                    <div class="result-item">
+                      <span class="result-number">35%</span>
+                      <span class="result-label">Cost Reduction</span>
+                    </div>
+                  </div>
+                  <a href="#" class="btn-link">Read Case Study <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Logos -->
+  <section class="clients-section py-5">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+          <span class="section-subtitle">Our Clients</span>
+          <h2 class="section-title">Trusted by Leading Companies</h2>
+          <p class="section-description">We've had the privilege of working with a diverse range of clients across various industries.</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-2 col-md-4 col-6 mb-4 text-center">
+          <div class="client-logo">Company A</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4 text-center">
+          <div class="client-logo">Company B</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4 text-center">
+          <div class="client-logo">Company C</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4 text-center">
+          <div class="client-logo">Company D</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4 text-center">
+          <div class="client-logo">Company E</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4 text-center">
+          <div class="client-logo">Company F</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Modals -->
+  <!-- Portfolio Modal 1 -->
+  <div class="modal fade portfolio-modal" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal1Label">TechStart Growth Strategy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="TechStart Growth Strategy" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+              <h4>Project Overview</h4>
+              <p>TechStart, a promising SaaS startup, faced challenges in scaling their business and defining a clear path to market expansion. Our team worked closely with their leadership to develop a comprehensive growth strategy.</p>
+              <div class="project-details">
+                <p><strong>Client:</strong> TechStart Inc.</p>
+                <p><strong>Industry:</strong> Software as a Service</p>
+                <p><strong>Services:</strong> Business Strategy, Market Analysis</p>
+                <p><strong>Duration:</strong> 4 months</p>
+              </div>
+              <h4 class="mt-4">Approach & Solution</h4>
+              <p>We conducted in-depth market research, competitive analysis, and customer interviews to identify key growth opportunities. Based on our findings, we developed a multi-phase growth strategy focused on product expansion, market penetration, and strategic partnerships.</p>
+              <h4 class="mt-4">Results</h4>
+              <ul>
+                <li>250% increase in annual recurring revenue over 18 months</li>
+                <li>Successful expansion into two new market segments</li>
+                <li>Secured $15M in Series B funding based on the strategic roadmap</li>
+                <li>40% improvement in customer acquisition efficiency</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="cta-section py-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">Ready to become our next success story?</h2>
+          <p class="text-white mb-4">Let's discuss how we can help your business achieve its goals and overcome challenges.</p>
+          <a href="contact.html" class="btn btn-light btn-lg">Contact Us Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h4 class="footer-heading">Elevate</h4>
+          <p>Transforming businesses through innovation and strategic solutions since 2018.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="footer-heading">Company</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="footer-heading">Resources</h5>
+          <ul class="footer-links">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Webinars</a></li>
+            <li><a href="#">Guides</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5 class="footer-heading">Contact Us</h5>
+          <ul class="footer-contact">
+            <li><i class="bi bi-geo-alt"></i> 123 Business Ave, Suite 100, San Francisco, CA 94107</li>
+            <li><i class="bi bi-telephone"></i> +1 (555) 123-4567</li>
+            <li><i class="bi bi-envelope"></i> info@elevate-business.com</li>
+          </ul>
+          <form class="footer-subscribe mt-3">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="button-subscribe">
+              <button class="btn btn-primary" type="button" id="button-subscribe">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr class="mt-4 mb-3">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">&copy; 2025 Elevate. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <ul class="footer-bottom-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
